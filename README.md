@@ -8,8 +8,9 @@ Dynasty Selector uses the <b>Qt 5.11.1</b> framework.<br>
 I am in no way affiliated with Qt and am using their software under the <i>GNU LGPLv3</i> license.<br>
 
 #### Description/Purpose
-- Provide a desktop software able to search menu items by id number with receipt printing functionality.
-- Specifically made for Dynasty House Seafood Restaurant.
+- Provide a desktop software able to search menu items by id number.
+- Ability to quickly print item names in Chinese to efficiently improve customer wait times.
+- Specialized for Dynasty House Seafood Restaurant.
 
 #### Features
 - <b>Remote:</b> SQLITE database stores static information containing an <i>item id, Chinese name, English name,</i> and <i>price</i>.

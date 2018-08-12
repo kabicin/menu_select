@@ -9,7 +9,7 @@ I am in no way affiliated with Qt and am using their software under the <i>GNU L
 
 #### Description/Purpose
 - Provide a desktop software able to search menu items by id number.
-- Ability to quickly print item names in Chinese to efficiently improve customer wait times.
+- Ability to quickly print item names in Chinese to promote efficiency and improve customer wait times.
 - Meant to be used on a touchscreen monitor using Windows x86/64 bit.
 - Specialized for Dynasty House Seafood Restaurant.
 

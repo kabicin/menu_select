@@ -15,7 +15,7 @@ I am in no way affiliated with Qt and am using their software under the <i>GNU L
 #### Features
 - <b>Remote:</b> SQLITE database stores static information containing an <i>item id, Chinese name, English name,</i> and <i>price</i>.
 - <b>Printer Functionality:</b> Able to hook up receipt printer that prints item names in Chinese.
-- <b>Colour Coded:</b> Menu items are colour coded by the section of the kitchen they will be administered.
+- <b>Colour Coded:</b> Menu items are colour coded by the quantity as well as section of the kitchen they will be administered.
 - <b>Interactive List:</b> The list widget is clickable in order to add/delete items freely.
 <br>
 :whale: Thanks for checking out the project! :whale:

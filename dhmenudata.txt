@@ -1,0 +1,319 @@
+﻿1	|	Steamed Pork Vegetable Dumpling	|	菜肉餃	|	4.8
+2	|	Steamed Shrimp & Spinach Dumpling	|	波菜餃	|	5.5
+3	|	Steamed Shrimp & Chive Dumpling	|	韮菜餃	|	5.5
+4	|	Har Gow (Steamed Shrimp Dumpling)	|	蝦餃	|	5.5
+5	|	Siu Mai (Steamed Pork Dumpling)	|	燒賣	|	4.8
+6	|	Steamed Beef Ball w/ Bean Curd Sheet	|	山竹牛肉	|	3.8
+7	|	Steamed Chicken Feet w/ Bean Sauce	|	鳳爪	|	3.8
+8	|	Steamed Spareribs w/ Bean Sauce	|	排骨	|	3.8
+9	|	Beef Tender w/ B.B.Q Sauce	|	醬汁牛根	|	5.5
+10	|	Steamed Beef Tripe w/ Ginger Green Onion	|	牛柏葉	|	5.5
+11	|	Beef Short Ribs w/Black Pepper Sauce	|	黑椒牛仔骨	|	5.5
+12	|	Steamed Curry Squid	|	咖喱墨魚仔	|	5.5
+13	|	Pig's Stomach w/ Black Pepper Sauce	|	黑椒豬肚	|	4.8
+14	|	Seafood Siu Mai (Spicy Seafood Dumpling)	|	海鲜燒賣	|	5.5
+15	|	Pork /Shrimp Bean Curd Sheet Roll w/ Oyster Sauce	|	鮮竹卷	|	4.8
+16	|	Barbecued Pork Rice Bun	|	蜜汁叉燒飽	|	4.8
+17	|	Thai Style Siu Mai ( Pork Dumpling)	|	泰式燒賣	|	5.5
+18	|	Sticky Rice In Lotus Leaf (Pork)	|	珍珠糯米雞	|	5.5
+19	|	Beef Siu Mai (Spicy Basil Beef Dumpling)	|	牛肉燒賣	|	4.8
+20	|	Marinated Duck Egg w/ Pork Congee (Small)	|	皮蛋瘦肉粥	|	5.95
+21	|	Shrimp Rice Roll	|	鮮蝦腸粉	|	5.95
+22	|	Beef Rice Roll	|	牛肉腸粉	|	5.95
+23	|	Steamed Scallop & Snow Pea Leaf Rice Roll	|	豆苗帶子腸粉	|	7.5
+24	|	Barbecued Pork Rice Roll	|	叉燒腸粉	|	5.95
+25	|	Deep Fried Squid Tail	|	五香魷魚鬚	|	6.95
+26	|	Crispy Shrimp Cake	|	日式炸蝦餅	|	5.95
+27	|	Deep Fried Crab Claw	|	百花釀蟹拑	|	5.95
+28	|	Shrimp Paste with Eggplant	|	釀茄子	|	5.5
+29	|	Deep Fried Stuffed Shrimp with Tofu	|	街邉炸豆腐	|	5.5
+30	|	Crispy Fried Shrimp Dumpling	|	酥炸明蝦角	|	5.5
+31	|	Deep Fried Bean Curd Sheet Roll w/ Seafood	|	鲜蝦腐皮卷	|	5.5
+32	|	Deep Fried Shrimp Ball	|	炸虾棗	|	5.5
+33	|	Vegetable Spring Roll	|	素菜春卷	|	3.95
+34	|	Pork Spring Roll	|	春卷 (豬肉)	|	4.8
+340	|	Curry Chicken Spring Roll	|	咖喱雞春卷	|	4.8
+35	|	Crispy Shrimp Roll	|	脆香炸蝦卷	|	5.5
+36	|	Deep Fried Vietnamese Spring Roll	|	越式春卷	|	4.8
+37	|	Deep Fried Sticky Meat Dumpling	|	鹹水角	|	3.8
+38	|	Taro Paste With Meat Dumpling	|	芋角	|	3.8
+39	|	Deep Fried Sesame Ball	|	蓮蓉煎堆仔	|	3.8
+40	|	Egg Tart	|	酥皮蛋撻	|	3.8
+41	|	BBQ Beef Short Ribs	|	韓燒牛仔骨	|	6.95
+42	|	Pan Fried Pork Dumpling	|	鍋貼	|	5.5
+43	|	Sweet Tofu Pudding	|	山水豆腐花	|	3.8
+44	|	Mango Pudding	|	芒果布甸	|	4.8
+45	|	Deep Fried Garlic Spareribs (Small Size)	|	蒜香骨	|	5.95
+46	|	Spicy Seafood Cake	|	泰式煎海鲜餅	|	5.5
+47	|	Shredded Jelly Fish	|	涼伴海哲	|	6.95
+48	|	Cold Green Beans	|	涼伴四季豆	|	6.5
+49	|	Steamed Scallop with Garlic Sauce	|	蒜茸蒸有殼帶子	|	6.25
+50	|	Steamed Oyster with Black Bean Sauce	|	豉汁蒸生蠔	|	4.25
+51	|	Deep Fried Spicy Fish Shishamo	|	日式炸多春魚	|	6.5
+52	|	Tempura Cuttle Fish Baby	|	日式炸墨魚仔	|	5.95
+53	|	Tempura Spicy Squid	|	日式炸魷魚咀	|	6.5
+54	|	Tempura Shrimp	|	日式炸鳳尾蝦	|	6.5
+55	|	Tempura Fish Fillet	|	日式炸魚柳	|	5.95
+56	|	Tempura King Mushroom	|	酥炸皇子菇	|	7.5
+57	|	Tempura Mussel	|	日式炸青口	|	7.5
+58	|	Tempura Bok Choy	|	日式炸白莱苗	|	5.95
+59	|	Tempura Jumbo Shrimp	|	日式炸蝦球	|	7.5
+60	|	Deep Fried Chicken Wing	|	炸雞翼	|	7.5
+61	|	Chicken with Sweet Corn Soup	|	雞茸粟米羹	|	S-4.50 M-9 L-13
+62	|	Hot & Sour Soup Shredded Pork	|	酸辣湯	|	S-4.50 M-9 L-13
+63	|	Beef Egg Drop Soup	|	西湖牛肉羹	|	S-4.50 M-9 L-13
+64	|	Wonton Soup Shredded Pork	|	雲吞湯	|	S-4.50 M-9 L-13
+65	|	Mushroom Egg Drop Soup	|	蘑菇蛋花羹	|	S-4.50 M-9 L-13
+67	|	Fish Maw w/ Crab Meat Thick Soup	|	蟹肉魚肚羹	|	S-5.95 M-12.95 L-16.95
+68	|	Seafood Tofu Baby Bok Choy Soup	|	海鮮白菜苗豆腐湯	|	S-5.95 M-12.95 L-16.95
+66	|	Seafood Bean Curd Soup	|	海鮮豆腐羹	|	S-5.50 M-12.50 L-15.50
+69	|	Seafood Tofu Crab Paste Soup	|	海鮮蟹醬豆腐羹	|	S-5.50 M-12.50 L-15.50
+70	|	Fish Maw with Chicken Thick Soup	|	雞茸魚肚羹	|	S-5.50 M-12.50 L-15.50
+71	|	Szechuan Seafood Bean Curd Soup	|	四川海鮮豆腐羹	|	S-5.50 M-12.50 L-15.50
+72	|	Thai style(Tom Yum Goong) Shrimp Soup	|	冬陰功蝦湯	|	S-5.50 M-12.50 L-15.50
+720	|	Thai style(Tom Yum Goong) Chicken Soup	|	冬陰功雞湯	|	S-5.50 M-12.50 L-15.50
+73	|	Braised Shark’s Fin Soup w/ Crab Meat	|	紅燒蟹肉翅	|	B-19.95 R-79.95
+74	|	Braised Shark’s Fin w/Special Sauce(Bowl)	|	紅燒鮑翅	|	39.95
+75	|	Bird’s Nest Soup w/ Crab Meat Seafood (Bowl)	|	蟹肉海皇燕窝羹	|	B-22.95 R-89.95
+76	|	Pan Fried Jumbo Scallop w/ Teriyaki Sauce	|	日式燒汁帶子	|	28
+77	|	Pan-Seared Lamb Rack	|	法式燒汁羊架	|	22.95
+78	|	Stir Fried Sea Cucumber & King Musroom	|	皇子菇桂花蚌	|	28.95
+79	|	Deep Fried Oyster w/ Spicy Salt	|	椒鹽生蠔	|	15.95
+80	|	Deep Fried Fresh Oyster	|	酥炸生蠔	|	15.95
+81	|	Deep fried Fresh Oyster w/ XO Sauce	|	酥炸XO生蠔	|	15.95
+82	|	Abalone With Oyster Sauce	|	蠔皇鮑魚	|	1pc-38.95
+83	|	Abalone With Oyster Sauce	|	蠔皇鮑魚	|	5pc-88.00
+84	|	Sliced Abalone Baby Bok Choy w/ Oyster Sauce	|	鮑魚片扒菜苗	|	58
+85	|	Sauteed Clams w/ Black Bean Sauce	|	豉汁炒蜆	|	11.95
+86	|	New Zealand Mussel w/ Black Bean Sauce	|	豉汁青口	|	11.95
+87	|	Boiled Shrimp in Shell w/ Soya Sauce	|	白灼中蝦	|	11.95
+88	|	Deep Fried Jumbo Shrimp w/ Spicy Salt	|	椒鹽蝦球	|	15.5
+89	|	Deep Fried Shrimp in Shell w/ Spicy Salt	|	椒鹽中蝦	|	11.95
+90	|	Jumbo Shrimp w/Sweet & Sour Sauce	|	甜酸炸蝦	|	15.5
+91	|	Tempura Fish Fillet w/ Teriyaki Sauce	|	日式燒汁炸鱼柳	|	13.95
+92	|	Deep Fried Squid w/ Spicy Salt	|	椒鹽鮮魷	|	11.95
+93	|	Deep Fried fish fillet w/ Sweet & Sour	|	酥炸魚柳	|	11.95
+94	|	Deep Fried Mixed Seafood w/ Spicy Salt	|	椒鹽三鮮	|	16.95
+95	|	Deep Fried Soft Shell Crab w/ Spicy Salt	|	椒鹽軟壳蟹	|	16.95
+96	|	Crispy Fried Curry Baby Cuttlefish	|	酥炸墨魚仔	|	11.95
+97	|	Stir Fried Scallop /Sweet Corn /Egg White	|	粟米茸帶子蛋白	|	19.95
+98	|	Sugar Pea & Celery w/ Seafood on Cookies Nest	|	金盞三鮮	|	17.95
+99	|	Shrimp In Lobster Sauce	|	蝦龍湖	|	13.95
+100	|	Sliced Fish & Chinese Broccoli With XO Sauce	|	XO芥兰炒魚片	|	14.95
+101	|	Stir Fried Seafood w/ Broccoli in Peking Style	|	海鮮賽螃蟹	|	17.95
+102	|	Jumbo Shrimp w/ Cookies Nest Thousand Island Sauce	|	金盞千島蝦球	|	17.95
+103	|	Shrimp w/ Mix Vegetable	|	蝦仁炒什菜	|	15.95
+104	|	Sliced Frish w/ 3 Kind of Onion in Black Bean Spicy Sauce	|	三蔥爆魚片	|	14.95
+105	|	Stir Fried Mix seafood w/ Sugar Pea / Celery	|	油泡海鮮	|	16.95
+106	|	Pan Fried Oyster Egg Patties	|	潮州煎蠔烙	|	12.95
+107	|	Vegetable w/ Crab Meat Sauce	|	蟹肉扒時蔬	|	16.95
+108	|	Pan Fried Shrimp w/ Scramble Egg	|	滑蛋蝦仁	|	14.95
+109	|	Braise in Soy Sauce Fish	|	紅燒立魚	|	24.95
+110	|	Seafood w/ XO Sauce on Cookies Nest	|	X0醬金盞海鮮	|	17.95
+111	|	Chicken /Siver Fish w/ Green Beans	|	豆鼓银魚四季豆	|	11.95
+112	|	Shrimp w/ Eggplant in Chili Sauce	|	川椒茄子蝦仁	|	15.95
+113	|	Szechuan Shrimp	|	四川蝦仁	|	15.95
+114	|	Snow Pea Leaves & Dried Scallop w/ Oyster Sauce	|	干瑶柱扒豆苗	|	18.95
+115	|	Sliced Fish w/ Mix Vegetable	|	魚片炒什菜	|	14.95
+116	|	Szechuan Kung Bao Shrimp	|	宮保蝦仁	|	15.95
+117	|	Szechuan Sliced Fish	|	四川魚片	|	14.95
+118	|	Sliced Fish & Bitter Melon w/Black Bean Sauce	|	豉汁凉瓜魚片	|	14.95
+119	|	Szechuan Scallops	|	四川帶子	|	22
+120	|	Sliced Fish w/ Canadian Broccoli	|	西蘭花魚片	|	14.95
+121	|	Barbecue Pork	|	蜜汁义燒	|	8.95
+122	|	Roasted Suckling Pig Pieces w/ Shredded Jelly Fish	|	海浙乳豬件	|	16.95
+123	|	Roast Pork	|	燒肉	|	9.95
+124	|	Crispy Fried Chicken	|	脆皮炸子雞	|	H-9.95
+125	|	Three Kinds of BBQ	|	燒味三拼	|	16.95
+126	|	Two Kinds of BBQ	|	燒味双拼	|	12.95
+127	|	Special Steamed Chicken & Vegetable	|	菜胆上湯雞	|	H-11.95
+128	|	B.B.Q Duck	|	明爐燒鴨	|	H-13.95
+129	|	Steamed Chicken w/ Ginger & Green Onion	|	薑蔥霸皇雞	|	H-11.95
+130	|	Braised Duck w/ Chinese Mushroom & Vegetable	|	時菜北菇扒鴨	|	H-14.95
+131	|	Shredded Jelly Fish/ Steamed Chicken w/ Fish Flavour Sauce	|	海哲魚露雞	|	H-15.95
+132	|	Braised Duck w/ Assorted Seafood & Meat	|	八珍扒鴨	|	H-16.95
+133	|	Peking Duck (Two Courses) Whole	|	北京片皮鴨	|	29.95
+134	|	Peking Chicken (Two Courses) Whole	|	北京片皮雞	|	22.95
+401	|	Seasame Chicken With Pancake Wraps	|	芝麻雞卷餅	|	15.95
+402	|	General Tao’s Beef With Pancake Wraps	|	左宗棠牛肉卷餅	|	17.95
+403	|	Spinach with PineappleTeriyaki Sauce	|	燒汁扒菠菜	|	10.5
+404	|	Mixed Garden Vegetable/ Bean Sprout w/ Garlic Sauce	|	蒜茸什菜芽菜	|	9.95
+135	|	Mixed Garden Vegetable with Garlic Sauce	|	蒜茸什菜	|	10.5
+136	|	Long Green Beans With Garlic Sauce	|	蒜茸四季豆	|	9.95
+137	|	Canadian Broccoli with Garlic Sauce	|	蒜茸西蘭花	|	9.95
+138	|	Pan Fried King Mushroom &Snow Pea Leaf	|	皇子菇扒豆苗	|	18.95
+139	|	Fried Snow Pea Leaves with Garlic Sauce	|	蒜茸豆苗	|	12.95
+140	|	Baby Bok Choy with Garlic Sauce	|	蒜茸炒白菜苗	|	11.95
+141	|	Chinese Broccoli With Oyster Sauce	|	蠔油芥蘭	|	10.5
+142	|	Spinach w/ Black Pepper Garlic Sauce	|	克椒蒜茸炒菠菜	|	9.95
+143	|	Bitter Melon with Egg & Salted Egg	|	鹹香涼瓜片	|	10.5
+144	|	Stir Fried Zucchini withTeriyaki Sauce	|	燒汁意大利青瓜	|	9.95
+145	|	Baby Bok Choy with Chinese Mushroom	|	冬茹扒白菜苗	|	16.95
+146	|	Egg-Plant with Garlic Sauce	|	蒜茸炒茄子	|	10.5
+147	|	Deep Fried Vegetarian Fish	|	(素) 煎封銀雪魚	|	14.95
+148	|	Veggie Fried Shrimp	|	富貴黃金炸蝦	|	7.95
+149	|	Stir Fried Mixed Vegetable Treasure Tofu	|	羅漢上素豆腐	|	12.95
+150	|	Stir Fried seafood w/ Sugar Pea/ Celery	|	(素) 油泡雙鮮	|	12.95
+151	|	Wok-Fry Assorted seafood (Vegetarian)	|	(素) 油泡海中寶	|	16.95
+152	|	Stir Fried Mixed Vegetable Treasure	|	羅漢上素	|	11.95
+153	|	Deep Fried Bean Curd w/ Spicy Salt	|	椒鹽炸豆腐	|	8.95
+154	|	Braised Bean Curd w/ Vegetable	|	紅燒豆腐	|	11.95
+155	|	Deep Fried Bean Curd	|	(素) 炸豆腐	|	8.95
+156	|	Steamed Scallop & Black Bean Sauce Tofu	|	蒸豉汁帶子豆腐	|	16.95
+157	|	Steamed Stuffed Shrimp w/ Tofu	|	蒸百花釀豆腐	|	14.95
+158	|	Braised Bean Curd/Seafood w/ Vegetable	|	紅燒豆腐海鮮	|	16.95
+159	|	Pecking Style Pork Chop	|	京都肉排	|	10.95
+160	|	BBQ Pork Ribs (Long)	|	醬燒長骨	|	10.95
+161	|	Sweet & Sour Pork	|	菠蘿咕嚕肉	|	10.95
+162	|	Deep Fried Garlic Spareribs	|	蒜香骨	|	10.95
+163	|	Deep Fried Pork Chop w/ Spicy Salt	|	椒鹽肉排	|	10.95
+164	|	Stir Fried Pig's Stomach w/ XO Sauce	|	XO醬爆肚尖	|	17.95
+165	|	Sweet & Sour Pork Chop	|	甜酸生炒骨	|	10.95
+166	|	General Tao’s Pork Chop	|	左宗棠肉排	|	10.95
+167	|	Pork Chop w/ Strawberry Sauce	|	士多啤梨肉排	|	10.95
+168	|	Pork Chop w/ Dried Black Pepper& Onion	|	干黑椒洋蔥肉排	|	10.95
+169	|	Thai Lemongrass Pork Chop	|	泰式香茅肉排	|	10.95
+170	|	Spareribs w/ Black Bean Sauce	|	豉椒排骨	|	10.95
+171	|	Seasame Chicken	|	芝麻雞	|	11.95
+172	|	Pineapple Sweet & Sour Chicken	|	菠蘿咕嚕雞片	|	11.95
+173	|	General Tao’s Chicken	|	左宗棠雞	|	10.95
+174	|	Lemon Chicken	|	西檸煎軟雞	|	11.95
+175	|	Sweet & Sour Chicken Ball	|	炸雞波	|	10.95
+176	|	Chicken w/ Young Ginger	|	紫羅雞片	|	11.95
+177	|	Chicken Chop Suey	|	雞炒芽菜	|	10.95
+178	|	Szechuan Style Chicken	|	四川雞片	|	11.95
+179	|	Minced Chicken w/ String Bean	|	干遍雞茸四季豆	|	10.95
+180	|	Szechuan Orange Chicken	|	陳皮雞片	|	11.95
+181	|	Szechuan Style Tofu w/ Minced Chicken in Spicy Sauce	|	麻婆豆腐	|	19.95
+182	|	Kung Bao Chicken	|	宮保雞片	|	10.95
+183	|	Szechuan Style Shredded Beef Tenderloin	|	四川牛柳絲	|	13.95
+184	|	Beef / Eggplant w/ XO Sauce	|	X0醬茄子牛肉	|	13.95
+185	|	General Tao’s Beef	|	左宗棠牛肉	|	13.95
+186	|	Stir Fried Beef w/ Sugar Pea	|	蜜豆牛肉	|	12.95
+187	|	Beef Ribs w/ Black Pepper	|	干黑椒爆牛仔骨	|	13.95
+188	|	Stir Fried Beef w/ Sugar Pea & Chinese Mushroom	|	北菇牛肉	|	14.95
+189	|	Sliced Beef w/ Mushroom & Broccoli	|	西蘭花磨菇牛肉	|	12.95
+190	|	Beef & Mix Vegetable w/ Balck Bean Sauce	|	什菜鼓汁牛肉	|	12.95
+191	|	Beef w/ Ginger & Green Onion	|	薑蔥爆牛肉	|	13.95
+192	|	Beef & Bitter Melon w/ Black Bean Sauce	|	涼瓜牛肉	|	12.95
+193	|	Pan Fried Beef Tenderloin Cashew Nuts	|	腰果牛柳粒	|	13.95
+194	|	Stir-Fried Beef w/ Chinese Broccoli	|	芥蘭炒牛肉	|	12.95
+195	|	Chicken / Mushroom in Black Pepper Sauce	|	鐵板黑椒磨菇雞片	|	13.95
+196	|	Mignon Steak in Chinese Style	|	鐵板中式牛柳	|	14.95
+197	|	Seafood w/ Garlic Sauce	|	鐵板蒜茸炒海鮮	|	16.95
+198	|	Jumbo Shrimp w/ Ginger & Onion	|	鐵板薑蔥蝦球	|	16.95
+199	|	Deep Fried Fish Fillet w/ Satay Sauce	|	鐵板沙爹魚柳	|	15.95
+200	|	Mignon Steak w/ Black Bean Sauce	|	鐵板豉椒牛柳	|	14.95
+201	|	Beef w/ Satay Sauce	|	鐵板沙爹牛肉	|	12.95
+202	|	Beef w/ Black Bean Sauce	|	鐵板豉椒牛肉	|	12.95
+203	|	Shrimp w/ Black Bean Sauce	|	鐵板豉椒蝦仁	|	15.95
+204	|	Zucchini / Chicken and Mushroom w/ Garlic Sauce	|	鐵板青瓜磨菇雞片	|	12.95
+205	|	Szechuan Scallop On Sizzling Hot Plate	|	鐵板四川帶子	|	22
+206	|	Beef Ribs w/ Pineapple in Teriyaki Sauce	|	鐵板燒汁牛仔骨	|	14.95
+207	|	Minced Chicken / Egg-Plant / Green Beans in Black Bean Sauce	|	雞茸茄子四季豆	|	11.95
+208	|	Beef Steak Cube in Maggi Sauce	|	鐵板美極牛仔粒	|	14.95
+209	|	Beef Steak Cube in Teriyaki Sauce	|	鐵板燒汁牛仔粒	|	14.95
+210	|	Mix Vegetable /Beef w/ Teriyaki Sauce	|	鐵板燒汁什菜牛肉	|	13.95
+211	|	Mix Mushroom /Chicken w/ Teriyaki Sauce	|	鐵板燒汁什菌雞片	|	15.95
+212	|	.(Thai Style) Spicy Basil Mix Seafood	|	鐵板九層塔海鲜青口	|	17.95
+213	|	Spicy Basil Shrimp	|	鐵板九層塔蝦仁	|	15.95
+214	|	Spicy Basil Tofu	|	鐵板九層塔豆腐	|	11.95
+215	|	Nyonya Chicken	|	鐵板娘惹雞片	|	12.95
+216	|	Squid Tail with Black Bean Sauce	|	鐵板豉椒魷魚鬚	|	13.95
+217	|	Sliced Fish with Black Bean Sauce	|	鐵板豉椒魚片	|	15.95
+218	|	Squid Tail /Bean Sprout w/ Teriyaki Sauce	|	鐵板燒汁芽菜魷魚鬚	|	13.95
+219	|	Sambal Mushroom Beef	|	鉄板參巴磨菇牛肉	|	13.95
+220	|	Minced Chicken / Egg-Plant in Teriyaki Sauce	|	鉄板燒汁雞茸茄子	|	11.95
+221	|	Sambal Lamb	|	鉄板參巴羊肉	|	14.95
+222	|	Thai Style Fish Fillet in Wok	|	锅仔泰式魚片	|	13.95
+223	|	Seafood / Bean Curd w/ Assorted Meat in Wok	|	锅仔東江海鲜豆腐	|	15.95
+224	|	House Wine Shrimp in Wok	|	锅仔燒酒中蝦	|	13.95
+225	|	Spicy Basil Shrimp in Wok	|	锅仔九層塔中蝦	|	13.95
+226	|	Fish Fillet with Satay Sauce in Wok	|	锅仔沙爹魚片	|	13.95
+227	|	Mix Mushroom With Tofu in Wok	|	锅仔虫草花什菌豆腐	|	13.95
+228	|	Roast Lamb Leg	|	烤小羊腿	|	11.95
+229	|	Roast Turkey Leg	|	烤火雞腿	|	11.95
+230	|	Pan Fried Clams in Sambal Sauce	|	参巴炒蜆	|	11.95
+231	|	General Tao’s Bean Curd	|	左公豆腐	|	8.95
+232	|	Thai Spicy Pork Chop	|	泰式辣肉排	|	10.95
+233	|	Sesame Bean Curd	|	芝麻豆腐	|	8.95
+234	|	Spicy Okra / Green Beans	|	香辣炒羊角豆/四季豆	|	9.95
+235	|	Sardines and Shrimp with Sambal Sauce	|	參巴沙丁鱼虾球	|	15.95
+236	|	Tung Choi with Garlic Sauce	|	蒜茸炒通菜	|	11.95
+237	|	Spicy Basil Chicken w/ Lotus Root	|	九層塔蓮藕雞片	|	11.95
+238	|	Sambal Squid Tung Choi	|	參巴鲜尤通菜	|	15.95
+239	|	Shrimp Tofu in Sambal Sauce	|	参巴蝦豆腐	|	11.95
+240	|	Pad Thai w/ Shrimp & Chicken	|	泰式炒河	|	12.95
+241	|	Thai Style Mango Chicken	|	泰式芒果雞	|	13.95
+242	|	Thai Red Curry Beef	|	泰式紅咖喱牛肉	|	12.95
+243	|	Spicy Thai Noodle w/ Chicken	|	泰式香辣雞片炒河	|	10.95
+244	|	Thai Chili Chicken w/ Cashews	|	泰式腰果雞片	|	13.95
+245	|	Thai Golden Curry Chicken	|	泰式黃咖喱雞	|	12.95
+246	|	Mixed Vegetables w/ Tamarind Sauce	|	酸子炒什菜	|	10.95
+247	|	Thai Deep Fried Spicy Squid	|	泰式炸鮮魷	|	11.95
+248	|	Thai Mixed Vegetables Green Green Curry	|	泰式青咖喱什菜	|	11.95
+249	|	Pan Fried Clams in Thai Sauce	|	泰式炒蜆	|	11.95
+250	|	Spicy Basil Beef	|	香辣九層塔炒牛肉	|	12.95
+251	|	Spicy Basil Chicken	|	香辣九層塔炒雞片	|	11.95
+252	|	Chicken w/ Chinese Sausage / Bean Sauce in Hot Pot	|	啫啫雞片煲	|	12.95
+253	|	Vermicelli, Vegetable w/ Crab Paste in Hot Pot	|	蟹醬粉絲什菜煲	|	11.95
+254	|	Green Onion & Mushroom w/ Beef in Hot Pot	|	薑蔥磨菇牛肉煲	|	14.95
+255	|	Spicy Mixed Vegetables Beef in Hot Pot	|	香辣滑牛肉什菜窝	|	16.95
+256	|	Salted Fish w/ Diced Chicken & Bean Curd in Hot Pot	|	鹹魚雞片滑豆腐煲	|	12.95
+257	|	Seafood / Bean Curd w/ Assorted Meat in Hot Pot	|	八珍海鮮豆腐煲	|	16.95
+258	|	Mixed Seafood & Bean Curd w/ Bean Sauce in Hot Pot	|	海鮮豆腐煲	|	16.95
+259	|	Eggplant & Minced Chicken w/ Spicy Sauce in Hot Pot	|	魚香茄子煲	|	11.95
+260	|	Special Lamb Brisket in Hot Pot	|	枝竹羊腩煲	|	S-19.95 L-26.95
+261	|	Free Range Chicken w/ Chinese Herbs (Half)	|	(半隻) 藥財走地雞煲	|	19.95
+262	|	Fried Fish & Bean Curd w/ Bean Sauce in Hot Pot	|	班腩豆腐煲	|	15.95
+263	|	Oyster w/ Ginger & Green Onion in Hot Pot	|	薑蔥生蠔煲	|	16.95
+264	|	Fried Rice Fu-Kin Style	|	福建炒飯	|	14.95
+265	|	Seafood & Pineapple Fried Rice	|	菠蘿海鮮炒飯	|	13.95
+266	|	Chicken & Salted Fish Fried Rice	|	鹹魚雞粒炒飯	|	12.75
+267	|	Dried Scallop & Egg White Fried Rice	|	干瑤柱蛋白炒飯	|	19
+268	|	Yeung Chow Fried Rice	|	楊洲炒飯	|	10.75
+269	|	Fried Rice w/ Chicken & Shrimp in Two Kinds Sauce	|	鴛鴦炒飯	|	13.95
+270	|	Shrimp Fried Rice	|	蝦炒飯	|	10.75
+271	|	Chicken Fried Rice without Egg or with Egg ( Beef or B.B.Q. Pork )	|	雞/牛/叉燒 (各式炒飯)	|	9.75
+272	|	Mixed Vegetable Fried Rice	|	什菜炒飯	|	9.75
+273	|	COMBO #2 Egg Roll /Chicken Chop Suey Chicken Ball /Egg Fried Rice	|	N/A	|	9.95
+274	|	COMBO #3 Egg Roll / Seasame Chicken Mixed Veg.. /Egg Fried Rice	|		|	10.95
+275	|	COMBO #4 Egg Roll / Sweet & Sour Pork Mixed Veg.. /Egg Fried Rice	|		|	10.95
+276	|	Chicken or Beef Chinese Broccoli on Rice	|	芥蘭雞片或牛肉飯	|	9.95
+277	|	Beef or Chicken Bitter Melon on Rice	|	涼瓜牛肉或雞片飯	|	9.95
+278	|	Chicken or Beef Vegetable on Rice	|	時菜雞片或牛肉飯	|	9.95
+279	|	Beef or Chicken Black Bean Sauce on Rice	|	豉椒雞片或牛肉飯	|	9.95
+280	|	Chicken or Beef in Satay Sauce on Rice	|	沙爹雞片或牛肉飯	|	9.95
+281	|	Beef or Chicken Fired Bean Curd on Rice	|	紅燒豆腐牛肉或雞片飯	|	9.95
+282	|	Pan Fried Rice Noodle w/ Beef & Bean Sprout	|	干炒牛河	|	10.25
+283	|	Rice Noodle with Beef in Black Bean Sauce	|	豉椒炒牛河	|	10.75
+284	|	Rice Noodle w/ Beef and Vegetable in Oyster Sauce	|	時菜炒牛河	|	10.75
+285	|	Singapore Fried Vermicelli w/ Shrimp & Pork	|	星洲炒米	|	10.75
+286	|	Home Style Fried Vermicelli w/ Shrimp & Pork	|	家鄉炒米粉	|	10.75
+287	|	Fried Vermicelli w/ Sweet & Sauce Shrimp & Pork	|	夏門炒米粉	|	10.75
+288	|	Singapore Style Fried Rice Noodle w/ Shrimp & Pork	|	炒貴刁	|	10.75
+289	|	Pan Fried Spaghetti with Vegetables	|	干炒什菜意粉	|	10.75
+290	|	Pan Fried Spaghetti with Beef	|	干炒牛肉意粉	|	10.75
+291	|	Mix Seafood with Fried Crispy Egg Noodle	|	海鮮炒麵	|	15.95
+292	|	Jumbo Shrimp with Fried Crispy Egg Noodle	|	蝦球炒麵	|	16.95
+293	|	Cantonese Style Fried Crispy Egg Noodle	|	廣東炒麵	|	12.25
+294	|	Fried Egg Noodle with Bean Sprout	|	芽菜仔炒麵	|	9.95
+295	|	Mixed Vegetables with Fried Egg Crispy Noodle	|	什菜炒麵	|	9.95
+296	|	Vegetable with Chicken or Beef Fried Crispy Egg Noodle	|	時菜 雞 或 牛 炒麵	|	10.75
+297	|	Pan Fried E-Fu Noodle with B B Q Pork	|	肉絲干燒伊麵	|	10.75
+298	|	Fried Shanghai Noodle with Shrimp & Pork	|	上海粗炒	|	10.75
+299	|	Dry Fried Rice Noodle w/ Seafood in XO Sauce	|	Ⅹ〇 醬干炒海鮮河	|	15.95
+300	|	Cantonese Style Noodle in Soup (XL)	|	楊洲窩麵	|	16.95
+301	|	Thai Special Rice Noodle Soup	|	泰式湯河粉	|	10.5
+302	|	Asia Curry Rice Noodle Soup	|	咖喱湯河粉	|	10.5
+303	|	Mixed Vegetable / Chicken Rice Noodle Soup	|	什菜雞片湯河粉	|	9.5
+304	|	Shrimp Wonton Rice Noodle Soup	|	鲜蝦云吞湯河粉	|	10.5
+305	|	BBQ Duck Rice Noodle Soup	|	燒鸭湯河粉	|	10.5
+306	|	Seafood Congee	|	海鮮粥	|	8.95
+307	|	Sweet Corn & Mushroom Congee	|	北茹粟米粥	|	7.95
+308	|	Marinnated Duck Egg w/ Pork Congee	|	皮蛋瘦肉粥	|	7.95
+309	|	Jumbo Shrimp Congee	|	蝦球粥	|	9.95
+310	|	Sliced Fish Congee	|	魚片粥	|	8.5
+311	|	Chicken Congee	|	雞粥	|	7.95
+312	|	Beef Congee	|	牛肉粥	|	7.95
+313	|	Chicken & King Mushroom Congee	|	皇子菇雞片粥	|	8.95

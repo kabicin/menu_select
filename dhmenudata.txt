@@ -81,8 +81,8 @@
 79	|	Deep Fried Oyster w/ Spicy Salt	|	椒鹽生蠔	|	15.95
 80	|	Deep Fried Fresh Oyster	|	酥炸生蠔	|	15.95
 81	|	Deep fried Fresh Oyster w/ XO Sauce	|	酥炸XO生蠔	|	15.95
-82	|	Abalone With Oyster Sauce	|	蠔皇鮑魚	|	1pc-38.95
-83	|	Abalone With Oyster Sauce	|	蠔皇鮑魚	|	5pc-88.00
+82	|	Abalone With Oyster Sauce	|	蠔皇鮑魚 [1pc]	|	38.95
+83	|	Abalone With Oyster Sauce	|	蠔皇鮑魚 [5pc]	|	88
 84	|	Sliced Abalone Baby Bok Choy w/ Oyster Sauce	|	鮑魚片扒菜苗	|	58
 85	|	Sauteed Clams w/ Black Bean Sauce	|	豉汁炒蜆	|	11.95
 86	|	New Zealand Mussel w/ Black Bean Sauce	|	豉汁青口	|	11.95
@@ -123,15 +123,15 @@
 121	|	Barbecue Pork	|	蜜汁义燒	|	8.95
 122	|	Roasted Suckling Pig Pieces w/ Shredded Jelly Fish	|	海浙乳豬件	|	16.95
 123	|	Roast Pork	|	燒肉	|	9.95
-124	|	Crispy Fried Chicken	|	脆皮炸子雞	|	H-9.95
+124	|	Crispy Fried Chicken	|	脆皮炸子雞 [H]	|	9.95
 125	|	Three Kinds of BBQ	|	燒味三拼	|	16.95
 126	|	Two Kinds of BBQ	|	燒味双拼	|	12.95
-127	|	Special Steamed Chicken & Vegetable	|	菜胆上湯雞	|	H-11.95
-128	|	B.B.Q Duck	|	明爐燒鴨	|	H-13.95
-129	|	Steamed Chicken w/ Ginger & Green Onion	|	薑蔥霸皇雞	|	H-11.95
-130	|	Braised Duck w/ Chinese Mushroom & Vegetable	|	時菜北菇扒鴨	|	H-14.95
-131	|	Shredded Jelly Fish/ Steamed Chicken w/ Fish Flavour Sauce	|	海哲魚露雞	|	H-15.95
-132	|	Braised Duck w/ Assorted Seafood & Meat	|	八珍扒鴨	|	H-16.95
+127	|	Special Steamed Chicken & Vegetable	|	菜胆上湯雞 [H]	|	11.95
+128	|	B.B.Q Duck	|	明爐燒鴨 [H]	|	13.95
+129	|	Steamed Chicken w/ Ginger & Green Onion	|	薑蔥霸皇雞 [H]	|	11.95
+130	|	Braised Duck w/ Chinese Mushroom & Vegetable	|	時菜北菇扒鴨 [H]	|	14.95
+131	|	Shredded Jelly Fish/ Steamed Chicken w/ Fish Flavour Sauce	|	海哲魚露雞 [H]	|	15.95
+132	|	Braised Duck w/ Assorted Seafood & Meat	|	八珍扒鴨 [H]	|	16.95
 133	|	Peking Duck (Two Courses) Whole	|	北京片皮鴨	|	29.95
 134	|	Peking Chicken (Two Courses) Whole	|	北京片皮雞	|	22.95
 401	|	Seasame Chicken With Pancake Wraps	|	芝麻雞卷餅	|	15.95
@@ -274,11 +274,11 @@
 268	|	Yeung Chow Fried Rice	|	楊洲炒飯	|	10.75
 269	|	Fried Rice w/ Chicken & Shrimp in Two Kinds Sauce	|	鴛鴦炒飯	|	13.95
 270	|	Shrimp Fried Rice	|	蝦炒飯	|	10.75
-271	|	Chicken Fried Rice without Egg or with Egg ( Beef or B.B.Q. Pork )	|	雞/牛/叉燒 (各式炒飯)	|	9.75
+271	|	Chicken Fried Rice without Egg or with Egg ( Beef or B.B.Q. Pork )	|	雞/牛/叉燒 [各式炒飯]	|	9.75
 272	|	Mixed Vegetable Fried Rice	|	什菜炒飯	|	9.75
-273	|	COMBO #2 Egg Roll /Chicken Chop Suey Chicken Ball /Egg Fried Rice	|	N/A	|	9.95
-274	|	COMBO #3 Egg Roll / Seasame Chicken Mixed Veg.. /Egg Fried Rice	|		|	10.95
-275	|	COMBO #4 Egg Roll / Sweet & Sour Pork Mixed Veg.. /Egg Fried Rice	|		|	10.95
+273	|	Egg Roll /Chicken Chop Suey Chicken Ball /Egg Fried Rice	|	组合2	|	9.95
+274	|	Egg Roll / Seasame Chicken Mixed Veg.. /Egg Fried Rice	|	组合3	|	10.95
+275	|	Egg Roll / Sweet & Sour Pork Mixed Veg.. /Egg Fried Rice	|	组合4	|	10.95
 276	|	Chicken or Beef Chinese Broccoli on Rice	|	芥蘭雞片或牛肉飯	|	9.95
 277	|	Beef or Chicken Bitter Melon on Rice	|	涼瓜牛肉或雞片飯	|	9.95
 278	|	Chicken or Beef Vegetable on Rice	|	時菜雞片或牛肉飯	|	9.95

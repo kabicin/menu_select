@@ -1,5 +1,5 @@
 # dynastyselector
-### Dynasty Selector for [Dynasty House Seafood Restaurant](https://dynastyhouserestaurant.com "Official Website")
+### Dynasty Selector for [Dynasty House Seafood Restaurant](http://dynastyhouserestaurant.com "Official Website")
 
 - Software Used: Qt (Core, GUI, Widgets, SQL, PrintSupport)
 - Language Used: C++
@@ -16,5 +16,5 @@ I am in no way affiliated with Qt and am using their software under the <i>GNU L
 - <b>Printer Functionality:</b> Able to hook up receipt printer that prints item names in Chinese.
 - <b>Colour Coded:</b> Menu items are colour coded by the section of the kitchen they will be administered.
 - <b>Interactive List:</b> The list widget is clickable in order to add/delete items freely.
-
-:whale: Thanks!
+<br>
+:whale: Thanks for checking out the project! :whale:

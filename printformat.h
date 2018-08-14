@@ -26,6 +26,8 @@ public:
     void changeFont(int);
     void printSpacing(int);
     void printUnderline();
+    void reset();
+    void printLines(int);
 };
 
 #endif // PRINTFORMAT_H

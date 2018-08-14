@@ -12,6 +12,14 @@ PrintFormat::PrintFormat(const QFontMetrics &fm, QPrinter *print, QPainter *pain
     height = fontMet->height();
 }
 
+void PrintFormat::reset(){
+    cursorPos = 0;
+}
+void PrintFormat::printLines(int o){
+    if (o > 0){
+        cursorPos += height * o;
+    }
+}
 void PrintFormat::adjCursor(){
     cursorPos += height;
 }

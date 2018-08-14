@@ -347,7 +347,7 @@ void MainWindow::on_btnGo_clicked()
                 double price = addPrice.toDouble();
                 addPrice = QString::number(price, 'f', 2);
                 ui->listWidget_2->insertItem(row, addPrice);
-                if(itemId.toInt() > 68){
+                if(itemId.toInt() > 46){
                     // not dim sum
                     ui->listWidget->item(row)->setForeground(Qt::darkGreen);
                     ui->listWidget_2->item(row)->setForeground(Qt::darkGreen);
@@ -636,13 +636,17 @@ void MainWindow::on_btnPrint_clicked()
         }
     }
 
-    // THIS IS SO SLOW
-    for(int i = 0; i < 10 - ui->listWidget->count(); ++i){
-        x.printNewline();
+
+    for(int i = 0; i < 5 - ui->listWidget->count(); ++i){
+        x.printSpacing(8);
+        x.changeFont(4);
+        x.printLeftText(".");
+        x.changeFont(16);
     }
+    //x.printLines(10 - ui->listWidget->count());
 
     x.printNewline();
-    x.changeFont(5);
+    x.changeFont(4);
     x.printCentreText(".");
     painter.end();
 }
@@ -653,71 +657,93 @@ void MainWindow::on_btnPrintKitchen_clicked()
     printer.setPrinterName(printerName);
     printer.setPaperSize(QPrinter::EnvelopeC7);
 
+
     QPainter painter;
     QFont font("simsun", 16);
     painter.setFont(font);
-    painter.drawText(0, 0, "hello");
     QFontMetrics fm(font);
 
     PrintFormat x(fm, &printer, &painter);
+    int i = 0;
+    // printing first page only if there exists an element <= 42
+    if(existsListWidgetItemLessThanEq(42)){
+        if(!painter.begin(&printer)){
+            qDebug() << "failed to open file";
+        }
+
+        x.printNewline();
+        x.changeFont(16);
+        // use 46 because dim sum items go up to 46;
+
+        while(i < ui->listWidget->count() && ui->listWidget_4->item(i)->text().toInt() <= 46){
+            QString item;
+            if(ui->listWidget_3->item(i)->text().toInt() > 1){
+                item = ui->listWidget->item(i)->text() + " x" + ui->listWidget_3->item(i)->text();
+            }
+            else{
+                item = ui->listWidget->item(i)->text();
+            }
+            x.printLeftText(item);
+            if(i != ui->listWidget->count()){
+                x.printSpacing(20);
+            }
+            i++;
+        }
+
+        for(int c = 0; c < 5 - i; ++c){
+            x.printSpacing(8);
+            x.changeFont(4);
+            x.printLeftText(".");
+            x.changeFont(16);
+        }
+        //x.printLines(10 - i);
+
+        x.printNewline();
+        x.changeFont(4);
+        x.printCentreText(".");
+        painter.end();
+        // if we printed everything..
+        if(i == ui->listWidget->count())
+            return;
+    }
+
+    // start printing second page
 
     if(!painter.begin(&printer)){
         qDebug() << "failed to open file";
     }
-
-    x.printNewline();
+    x.reset();
     x.changeFont(16);
-    int i = 0;
-    // use 68 because dim sum items go up to 68;
-    while(i < ui->listWidget->count() && ui->listWidget_4->item(i)->text().toInt() <= 68){
-        QString item;
-        if(ui->listWidget_3->item(i)->text().toInt() > 1){
-            item = ui->listWidget->item(i)->text() + " x" + ui->listWidget_3->item(i)->text();
-        }
-        else{
-            item = ui->listWidget->item(i)->text();
-        }
-        x.printLeftText(item);
-        if(i != ui->listWidget->count()){
-            x.printSpacing(20);
-        }
-    }
-
-    for(int c = 0; c < 10 - ui->listWidget->count(); ++c){
-        x.printNewline();
-    }
     x.printNewline();
-    x.changeFont(5);
-    x.printCentreText(".");
-
-    printer.newPage();
-
-    // if we printed everything..
-    if(i == ui->listWidget->count())
-        return;
 
 
     // otherwise continue printing
-    while(i < ui->listWidget->count() && ui->listWidget_4->item(i)->text().toInt() > 68){
+    int p = i;
+    while(p < ui->listWidget->count() && ui->listWidget_4->item(p)->text().toInt() > 46){
         QString item;
-        if(ui->listWidget_3->item(i)->text().toInt() > 1){
-            item = ui->listWidget->item(i)->text() + " x" + ui->listWidget_3->item(i)->text();
+        if(ui->listWidget_3->item(p)->text().toInt() > 1){
+            item = ui->listWidget->item(p)->text() + " x" + ui->listWidget_3->item(p)->text();
         }
         else{
-            item = ui->listWidget->item(i)->text();
+            item = ui->listWidget->item(p)->text();
         }
         x.printLeftText(item);
-        if(i != ui->listWidget->count()){
+        if(p != ui->listWidget->count()){
             x.printSpacing(20);
         }
+        p++;
     }
 
-    for(int c = 0; c < 10 - ui->listWidget->count(); ++c){
-        x.printNewline();
+    for(int c = 0; c < 5 - p + i; ++c){
+        x.printSpacing(8);
+        x.changeFont(4);
+        x.printLeftText(".");
+        x.changeFont(16);
     }
+    //x.printLines(10 - p + i);
 
     x.printNewline();
-    x.changeFont(5);
+    x.changeFont(4);
     x.printCentreText(".");
     painter.end();
 }
@@ -737,4 +763,24 @@ void MainWindow::on_listWidget_itemClicked(QListWidgetItem *item)
     if(x[2].toString().split(" ").size() > 1){
         ui->labelFood_4->setText(x[2].toString());
     }
+}
+
+void MainWindow::on_btnClearListWidget_clicked()
+{
+    ui->listWidget->clear();
+    ui->listWidget_2->clear();
+    ui->listWidget_3->clear();
+    ui->listWidget_4->clear();
+    ui->label_subtotal->setText("$0.00");
+    ui->label_tax->setText("$0.00");
+    ui->label_total->setText("$0.00");
+}
+
+bool MainWindow::existsListWidgetItemLessThanEq(int num){
+    for(int i = 0; i < ui->listWidget_4->count(); ++i){
+        if(ui->listWidget_4->item(i)->text().toInt() <= num){
+            return true;
+        }
+    }
+    return false;
 }

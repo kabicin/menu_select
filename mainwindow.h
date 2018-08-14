@@ -53,6 +53,9 @@ private slots:
 
     void on_listWidget_itemClicked(QListWidgetItem *item);
 
+    void on_btnClearListWidget_clicked();
+    bool existsListWidgetItemLessThanEq(int);
+
 private:
     Ui::MainWindow *ui;
     connection con;

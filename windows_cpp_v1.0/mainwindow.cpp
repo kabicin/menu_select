@@ -16,6 +16,7 @@
 #include <QEventLoop>
 #include <QObject>
 #include <QScrollBar>
+#include "printconfirmdialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -458,18 +459,6 @@ void MainWindow::keyPressEvent(QKeyEvent* e){
         on_btnGo_clicked();
     }
 }
-/*
-void MainWindow::on_listWidget_itemDoubleClicked(QListWidgetItem *item)
-{
-    // pass
-}
-
-void MainWindow::on_listWidget_2_itemDoubleClicked(QListWidgetItem *item)
-{
-    // pass
-}
-*/
-
 
 // on listWidget_3 (quantity) clicked
 void MainWindow::on_listWidget_3_itemClicked(QListWidgetItem *item)
@@ -512,21 +501,6 @@ void MainWindow::on_btnTestTotal_clicked()
     ui->label_total->setText("$" + QString::number(total, 'f', 2));
 }
 
-
-/*
-void MainWindow::on_listWidget_itemClicked(QListWidgetItem *item)
-{
-    int row = ui->listWidget->row(item);
-    QString chineseName = ui->listWidget->item(row)->text().split(" ")[0];
-    QList<QVariant> x = con.findItemByChName(chineseName); // contains number, foodnameeng, foodnamech, foodprice
-    updateDashboard(x[0].toString(), x[1].toString(), chineseName, x[2].toString());
-    // if there is more than one price, we need to override it
-    // so that the fourth food label shows multiple prices
-    if(x[2].toString().split(" ").size() > 1){
-        ui->labelFood_4->setText(x[2].toString());
-    }
-}
-*/
 
 
 void MainWindow::updateDashboard(QString x1, QString x2, QString x3, QString x4){
@@ -603,79 +577,32 @@ void MainWindow::on_listWidget_4_itemClicked(QListWidgetItem *item)
 
 void MainWindow::on_btnPrint_clicked()
 {
-    QPrinter printer;
-    printer.setPrinterName(printerName);
-    printer.setPaperSize(QPrinter::EnvelopeC7);
+    printConfirmDialog pcDialog;
+    pcDialog.setModal(true);
+    int choice = pcDialog.exec();
+    if(choice == QDialog::Accepted){
+        qDebug() << "[Print Confirmation] Accepted printing..";
 
-    QPainter painter;
-    QFont font("simsun", 16);
-    painter.setFont(font);
-    painter.drawText(0, 0, "hello");
-    QFontMetrics fm(font);
+        QPrinter printer;
+        printer.setPrinterName(printerName);
+        printer.setPaperSize(QPrinter::EnvelopeC7);
 
-    PrintFormat x(fm, &printer, &painter);
+        QPainter painter;
+        QFont font("simsun", 16);
+        painter.setFont(font);
+        painter.drawText(0, 0, "hello");
+        QFontMetrics fm(font);
 
-    if(!painter.begin(&printer)){
-        qDebug() << "failed to open file";
-    }
+        PrintFormat x(fm, &printer, &painter);
 
-    x.printNewline();
-    x.changeFont(16);
-
-    for(int i = 0; i < ui->listWidget->count(); ++i){
-        QString item;
-        if(ui->listWidget_3->item(i)->text().toInt() > 1){
-            item = ui->listWidget->item(i)->text() + " x" + ui->listWidget_3->item(i)->text();
-        }
-        else{
-            item = ui->listWidget->item(i)->text();
-        }
-        x.printLeftText(item);
-        if(i != ui->listWidget->count()){
-            x.printSpacing(20);
-        }
-    }
-
-
-    for(int i = 0; i < 5 - ui->listWidget->count(); ++i){
-        x.printSpacing(8);
-        x.changeFont(4);
-        x.printLeftText(".");
-        x.changeFont(16);
-    }
-    //x.printLines(10 - ui->listWidget->count());
-
-    x.printNewline();
-    x.changeFont(4);
-    x.printCentreText(".");
-    painter.end();
-}
-
-void MainWindow::on_btnPrintKitchen_clicked()
-{
-    QPrinter printer;
-    printer.setPrinterName(printerName);
-    printer.setPaperSize(QPrinter::EnvelopeC7);
-
-
-    QPainter painter;
-    QFont font("simsun", 16);
-    painter.setFont(font);
-    QFontMetrics fm(font);
-
-    PrintFormat x(fm, &printer, &painter);
-    int i = 0;
-    // printing first page only if there exists an element <= 42
-    if(existsListWidgetItemLessThanEq(42)){
         if(!painter.begin(&printer)){
             qDebug() << "failed to open file";
         }
 
         x.printNewline();
         x.changeFont(16);
-        // use 46 because dim sum items go up to 46;
 
-        while(i < ui->listWidget->count() && ui->listWidget_4->item(i)->text().toInt() <= 46){
+        for(int i = 0; i < ui->listWidget->count(); ++i){
             QString item;
             if(ui->listWidget_3->item(i)->text().toInt() > 1){
                 item = ui->listWidget->item(i)->text() + " x" + ui->listWidget_3->item(i)->text();
@@ -687,65 +614,129 @@ void MainWindow::on_btnPrintKitchen_clicked()
             if(i != ui->listWidget->count()){
                 x.printSpacing(20);
             }
-            i++;
         }
 
-        for(int c = 0; c < 5 - i; ++c){
+
+        for(int i = 0; i < 5 - ui->listWidget->count(); ++i){
             x.printSpacing(8);
             x.changeFont(4);
             x.printLeftText(".");
             x.changeFont(16);
         }
-        //x.printLines(10 - i);
+        //x.printLines(10 - ui->listWidget->count());
 
         x.printNewline();
         x.changeFont(4);
         x.printCentreText(".");
         painter.end();
-        // if we printed everything..
-        if(i == ui->listWidget->count())
-            return;
+        return;
     }
+    qDebug() << "[Print Confirmation] Rejected printing..";
+}
 
-    // start printing second page
+void MainWindow::on_btnPrintKitchen_clicked()
+{
+    printConfirmDialog pcDialog;
+    pcDialog.setModal(true);
+    int choice = pcDialog.exec();
+    if(choice == QDialog::Accepted){
+        qDebug() << "[Print Confirmation] Accepted printing..";
 
-    if(!painter.begin(&printer)){
-        qDebug() << "failed to open file";
-    }
-    x.reset();
-    x.changeFont(16);
-    x.printNewline();
+        QPrinter printer;
+        printer.setPrinterName(printerName);
+        printer.setPaperSize(QPrinter::EnvelopeC7);
 
+        QPainter painter;
+        QFont font("simsun", 16);
+        painter.setFont(font);
+        QFontMetrics fm(font);
 
-    // otherwise continue printing
-    int p = i;
-    while(p < ui->listWidget->count() && ui->listWidget_4->item(p)->text().toInt() > 46){
-        QString item;
-        if(ui->listWidget_3->item(p)->text().toInt() > 1){
-            item = ui->listWidget->item(p)->text() + " x" + ui->listWidget_3->item(p)->text();
+        PrintFormat x(fm, &printer, &painter);
+        int i = 0;
+        // printing first page only if there exists an element <= 42
+        if(existsListWidgetItemLessThanEq(42)){
+            if(!painter.begin(&printer)){
+                qDebug() << "failed to open file";
+            }
+
+            x.printNewline();
+            x.changeFont(16);
+            // use 46 because dim sum items go up to 46;
+
+            while(i < ui->listWidget->count() && ui->listWidget_4->item(i)->text().toInt() <= 46){
+                QString item;
+                if(ui->listWidget_3->item(i)->text().toInt() > 1){
+                    item = ui->listWidget->item(i)->text() + " x" + ui->listWidget_3->item(i)->text();
+                }
+                else{
+                    item = ui->listWidget->item(i)->text();
+                }
+                x.printLeftText(item);
+                if(i != ui->listWidget->count()){
+                    x.printSpacing(20);
+                }
+                i++;
+            }
+
+            for(int c = 0; c < 5 - i; ++c){
+                x.printSpacing(8);
+                x.changeFont(4);
+                x.printLeftText(".");
+                x.changeFont(16);
+            }
+            //x.printLines(10 - i);
+
+            x.printNewline();
+            x.changeFont(4);
+            x.printCentreText(".");
+            painter.end();
+            // if we printed everything..
+            if(i == ui->listWidget->count())
+                return;
         }
-        else{
-            item = ui->listWidget->item(p)->text();
-        }
-        x.printLeftText(item);
-        if(p != ui->listWidget->count()){
-            x.printSpacing(20);
-        }
-        p++;
-    }
 
-    for(int c = 0; c < 5 - p + i; ++c){
-        x.printSpacing(8);
-        x.changeFont(4);
-        x.printLeftText(".");
+        // start printing second page
+
+        if(!painter.begin(&printer)){
+            qDebug() << "failed to open file";
+        }
+        x.reset();
         x.changeFont(16);
-    }
-    //x.printLines(10 - p + i);
+        x.printNewline();
 
-    x.printNewline();
-    x.changeFont(4);
-    x.printCentreText(".");
-    painter.end();
+
+        // otherwise continue printing
+        int p = i;
+        while(p < ui->listWidget->count() && ui->listWidget_4->item(p)->text().toInt() > 46){
+            QString item;
+            if(ui->listWidget_3->item(p)->text().toInt() > 1){
+                item = ui->listWidget->item(p)->text() + " x" + ui->listWidget_3->item(p)->text();
+            }
+            else{
+                item = ui->listWidget->item(p)->text();
+            }
+            x.printLeftText(item);
+            if(p != ui->listWidget->count()){
+                x.printSpacing(20);
+            }
+            p++;
+        }
+
+        for(int c = 0; c < 5 - p + i; ++c){
+            x.printSpacing(8);
+            x.changeFont(4);
+            x.printLeftText(".");
+            x.changeFont(16);
+        }
+        //x.printLines(10 - p + i);
+
+        x.printNewline();
+        x.changeFont(4);
+        x.printCentreText(".");
+        painter.end();
+    }
+    qDebug() << "[Print Confirmation] Rejected printing..";
+    return;
 }
 
 void MainWindow::on_listWidget_itemClicked(QListWidgetItem *item)

@@ -27,17 +27,20 @@ SOURCES += \
         mainwindow.cpp \
     adddialog.cpp \
     connection.cpp \
-    printformat.cpp
+    printformat.cpp \
+    printconfirmdialog.cpp
 
 HEADERS += \
         mainwindow.h \
     adddialog.h \
     connection.h \
-    printformat.h
+    printformat.h \
+    printconfirmdialog.h
 
 FORMS += \
         mainwindow.ui \
-    adddialog.ui
+    adddialog.ui \
+    printconfirmdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

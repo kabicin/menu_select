@@ -15,7 +15,7 @@ I am in no way affiliated with Qt and am using their software under the <i>GNU L
 
 #### Features
 - <b>Remote:</b> SQLITE database stores static information containing an <i>item id, Chinese name, English name,</i> and <i>price</i>.
-- <b>Printer Functionality:</b> Able to hook up receipt printer that prints item names in Chinese.
+- <b>Printer Functionality:</b> Able to hook up (~80mm width) receipt printer (USB/Ethernet) that prints item names in Chinese.
 - <b>Colour Coded:</b> Menu items are colour coded by the quantity as well as section of the kitchen they will be administered.
 - <b>Responsive Dashboard:</b> Calls the database as the user enters/deletes a new entry.
 - <b>Interactive List:</b> The list widget allows options to <i>view, add one, delete one, or delete all</i> items freely.

@@ -19,5 +19,8 @@ I am in no way affiliated with Qt and am using their software under the <i>GNU L
 - <b>Colour Coded:</b> Menu items are colour coded by the quantity as well as section of the kitchen they will be administered.
 - <b>Responsive Dashboard:</b> Calls the database as the user enters/deletes a new entry.
 - <b>Interactive List:</b> The list widget allows options to <i>view, add one, delete one, or delete all</i> items freely.
+
+#### Download?
+- The project is currently specialized for Dynasty House Seafood Restaurant! However, if you are really interested.. de-folder the windows_cpp_v1.0 and pop it into Qt Creator...
 <br>
 :whale: Thanks for checking out the project! :whale:

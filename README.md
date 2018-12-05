@@ -2,7 +2,7 @@
 ### Dynasty Selector for [Dynasty House Seafood Restaurant](http://dynastyhouserestaurant.com "Official Website")
 
 - Software Used: Qt (Core, GUI, Widgets, SQL, PrintSupport)
-- Language Used: C++
+- Language Used: C++, Android (In-progress)
 
 Dynasty Selector uses the <b>Qt 5.11.1</b> framework.<br>
 I am in no way affiliated with Qt and am using their software under the <i>GNU LGPLv3</i> license.<br>
@@ -13,14 +13,14 @@ I am in no way affiliated with Qt and am using their software under the <i>GNU L
 - Meant to be used on a touchscreen monitor using Windows x86/64 bit.
 - Specialized for Dynasty House Seafood Restaurant.
 
-#### Features
+#### C++ App Features
 - <b>Remote:</b> SQLITE database stores static information containing an <i>item id, Chinese name, English name,</i> and <i>price</i>.
 - <b>Printer Functionality:</b> Able to hook up (~80mm width) receipt printer (USB/Ethernet) that prints item names in Chinese.
 - <b>Colour Coded:</b> Menu items are colour coded by the quantity as well as section of the kitchen they will be administered.
 - <b>Responsive Dashboard:</b> Calls the database as the user enters/deletes a new entry.
 - <b>Interactive List:</b> The list widget allows options to <i>view, add one, delete one, or delete all</i> items freely.
 
-#### Download?
-- The project is currently specialized for Dynasty House Seafood Restaurant! However, if you are really interested.. de-folder the windows_cpp_v1.0 and pop it into Qt Creator...
+#### Download
+- Download files in windows_cpp_v1.0 and compile using Qt Creator.
 <br>
 :whale: Thanks for checking out the project! :whale:

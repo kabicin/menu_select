@@ -1,20 +1,19 @@
-# dynastyselector
-### Dynasty Selector for [Dynasty House Seafood Restaurant](http://dynastyhouserestaurant.com "Official Website")
+
+# Menu Select
 
 - Software Used: Qt (Core, GUI, Widgets, SQL, PrintSupport)
 - Language Used: C++, Android (In-progress)
 
-Dynasty Selector uses the <b>Qt 5.11.1</b> framework.<br>
+Menu Select uses the <b>Qt 5.11.1</b> framework.<br>
 I am in no way affiliated with Qt and am using their software under the <i>GNU LGPLv3</i> license.<br>
 
 #### Description/Purpose
 - Provide a desktop software able to search menu items by id number.
 - Ability to use receipt printer to print menu items in Chinese, to promote efficiency and improve customer wait times.
 - Meant to be used on a touchscreen monitor using Windows x86/64 bit.
-- Specialized for Dynasty House Seafood Restaurant.
 
 #### C++ App Features
-- <b>Remote:</b> SQLITE database stores static information containing an <i>item id, Chinese name, English name,</i> and <i>price</i>.
+- <b>Remote:</b> SQLite database stores static information containing an <i>item id, Chinese name, English name,</i> and <i>price</i>.
 - <b>Printer Functionality:</b> Able to hook up (~80mm width) receipt printer (USB/Ethernet) that prints item names in Chinese.
 - <b>Colour Coded:</b> Menu items are colour coded by the quantity as well as section of the kitchen they will be administered.
 - <b>Responsive Dashboard:</b> Calls the database as the user enters/deletes a new entry.

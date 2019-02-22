@@ -7,4 +7,9 @@
     <string name="editTextPassword">********</string>
     <string name="buttonSignIn">Sign In</string>
     <string name="imageViewLogo">Dynasty House Seafood Restaurant Logo</string>
+
+    <string name="buttonOrder">Order</string>
+    <string name="buttonMenu">Menu</string>
+    <string name="buttonSettings">Settings</string>
+
 </resources>

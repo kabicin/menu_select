@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(MainActivity.this, ResourceCentreActivity.class);
             startActivity(i);
         } else {
-            Toast.makeText(this, "Invalid username/password.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Invalid username or password...", Toast.LENGTH_SHORT).show();
         }
     }
 

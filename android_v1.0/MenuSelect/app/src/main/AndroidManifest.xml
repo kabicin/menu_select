@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResourceCentreActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".SettingsActivity" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

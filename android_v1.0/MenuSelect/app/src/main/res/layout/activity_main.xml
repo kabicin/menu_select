@@ -11,7 +11,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="150dp" />
+        android:minHeight="100dp" />
 
     <Space
         android:layout_width="match_parent"
@@ -30,10 +30,11 @@
             android:minWidth="50dp" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageViewLogo"
             android:layout_width="336dp"
             android:layout_height="wrap_content"
             android:adjustViewBounds="false"
+            android:contentDescription="@string/imageViewLogo"
             android:cropToPadding="true"
             android:saveEnabled="false"
             android:scaleType="fitCenter"
@@ -51,124 +52,128 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:minHeight="400dp"
-        android:orientation="vertical">
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="150dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <Space
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:minWidth="150dp" />
+                android:minHeight="50dp" />
+
+            <TextView
+                android:id="@+id/textViewUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingBottom="10dp"
+                android:text="@string/textViewUsername"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="username"
+                android:background="@drawable/rounded_inputbox"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/editTextUsername"
+                android:inputType="textPersonName"
+                android:minHeight="40dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:typeface="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp" />
+
+            <TextView
+                android:id="@+id/textViewPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingBottom="10dp"
+                android:text="@string/textViewPassword"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="password"
+                android:background="@drawable/rounded_inputbox"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/editTextPassword"
+                android:inputType="textPassword"
+                android:minHeight="40dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:typeface="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
                 <Space
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:minHeight="50dp" />
+                    android:layout_weight="0.2"
+                    android:minWidth="10dp" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="match_parent"
+                <Button
+                    android:id="@+id/buttonSignIn"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:fontFamily="sans-serif-condensed-light"
-                    android:text="Username"
-                    android:textColor="@android:color/black"
-                    android:textSize="24sp" />
-
-                <EditText
-                    android:id="@+id/editText2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:ems="10"
-                    android:fontFamily="sans-serif-light"
-                    android:inputType="textPersonName"
-                    android:minHeight="50dp"
-                    android:text="ID" />
+                    android:layout_weight="1"
+                    android:background="@color/colorButtonBackground"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:minHeight="40dp"
+                    android:text="@string/buttonSignIn"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white" />
 
                 <Space
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:minHeight="30dp" />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:fontFamily="sans-serif-condensed-light"
-                    android:text="Password"
-                    android:textColor="@android:color/black"
-                    android:textSize="24sp" />
-
-                <EditText
-                    android:id="@+id/editText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:ems="10"
-                    android:fontFamily="sans-serif-light"
-                    android:inputType="textPassword"
-                    android:minHeight="50dp"
-                    android:text="password" />
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:minHeight="50dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.1"
-                    android:orientation="horizontal">
-
-                    <Space
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.2"
-                        android:minWidth="10dp" />
-
-                    <Button
-                        android:id="@+id/button"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="@color/colorButtonBackground"
-                        android:fontFamily="sans-serif-condensed-medium"
-                        android:text="Sign In"
-                        android:textColor="@android:color/white" />
-
-                    <Space
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.2"
-                        android:minWidth="10dp" />
-                </LinearLayout>
-
+                    android:layout_weight="0.2"
+                    android:minWidth="10dp" />
             </LinearLayout>
 
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:minWidth="150dp" />
-
         </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minWidth="150dp" />
 
     </LinearLayout>
 

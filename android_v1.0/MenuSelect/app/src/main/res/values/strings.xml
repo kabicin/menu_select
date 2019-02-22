@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MenuSelect</string>
+
+    <string name="textViewUsername">Username</string>
+    <string name="textViewPassword">Password</string>
+    <string name="editTextUsername">ID</string>
+    <string name="editTextPassword">********</string>
+    <string name="buttonSignIn">Sign In</string>
+    <string name="imageViewLogo">Dynasty House Seafood Restaurant Logo</string>
 </resources>

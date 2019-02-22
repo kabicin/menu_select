@@ -152,6 +152,7 @@
                     android:background="@color/colorButtonBackground"
                     android:fontFamily="sans-serif-condensed-medium"
                     android:minHeight="40dp"
+                    android:onClick="tryLogin"
                     android:text="@string/buttonSignIn"
                     android:textAllCaps="true"
                     android:textColor="@android:color/white" />

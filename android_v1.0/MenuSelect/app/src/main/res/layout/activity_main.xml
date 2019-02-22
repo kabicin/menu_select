@@ -11,12 +11,8 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="100dp" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="0dp" />
+        android:layout_weight="1"
+        android:minHeight="50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +27,7 @@
 
         <ImageView
             android:id="@+id/imageViewLogo"
-            android:layout_width="336dp"
+            android:layout_width="622dp"
             android:layout_height="wrap_content"
             android:adjustViewBounds="false"
             android:contentDescription="@string/imageViewLogo"
@@ -51,14 +47,14 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Space
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minWidth="150dp" />
+            android:minWidth="500dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -173,8 +169,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minWidth="150dp" />
+            android:minWidth="500dp" />
 
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="50dp" />
 
 </LinearLayout>

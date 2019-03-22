@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">MenuSelect</string>
 
+    <string name="status">Good</string>
+    <string name="username">admin</string>
+
+
     <string name="textViewUsername">Username</string>
     <string name="textViewPassword">Password</string>
     <string name="editTextUsername">ID</string>
@@ -23,7 +27,11 @@
     <string name="btn7">7</string>
     <string name="btn8">8</string>
     <string name="btn9">9</string>
-    <string name="btnCancel">X</string>
-    <string name="btnBackspace">-</string>
+    <string name="btnCancel">Cl</string>
+    <string name="btnBackspace">Bk</string>
+    <string name="statusTag">Status:</string>
+    <string name="loggedInTag">Logged in as:</string>
+    <string name="btnPrint">Print</string>
+    <string name="go">Go</string>
 
 </resources>
